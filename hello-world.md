@@ -1,3 +1,12 @@
+```
+title: Hello World
+tags: [healthcare, api, development]
+date: March 1, 2015
+slug: hello-world
+excerpt: We’re excited here at Akido to launch our blog. We’re releasing features every week so check back to stay up to date on the Akido platform.
+author: Team Akido
+```
+
 # Hello World! 
 
 We’re excited here at Akido to launch our blog. We’re releasing features every week so check back to stay up to date on the Akido platform. Also, we’ll share thoughts on digital health innovation and product development. You can also follow us on Twitter at @AkidoLabs.
@@ -25,7 +34,8 @@ If you’re a hospital admin and you want to see how full your ICU is just do
 curl…. 
 
 If you’re trying to build a cool demo app, you can pull all the abnormal patient results in the last 24hrs like this: 
-```
+
+<pre>
 #!/usr/bin/python
 import urllib, json,time
 url="https://testhospital.api.akidolabs.com?_format=json&issued=>" + str(time.time() - 24*60*60)
@@ -34,4 +44,4 @@ data = json.loads(response)
 for result in data:
   if data["interpretation"]["coding"][0]["code"] != "N":
     print "Patient " + data["subject"]["display"] + " had value " + str(data["valueQuantity"]["value"])
-```
+</pre>

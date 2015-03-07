@@ -1,14 +1,14 @@
 # Blog
 
-[Principles of an Ideal Database Client](principles-of-an-ideal-database-client.md)
+[Hello World](hello-world.md)
 
 ```
-title: Principles of an Ideal Database Client
-tags: [database, client, open source, development]
-date: January 25, 2015
-slug: principles-of-an-ideal-database-client
-excerpt: Discussing the principles that go into an ideal database client
-author: Matthew Mueller
+title: Hello World
+tags: [healthcare, api, development]
+date: March 1, 2015
+slug: hello-world
+excerpt: We’re excited here at Akido to launch our blog. We’re releasing features every week so check back to stay up to date on the Akido platform.
+author: Team Akido
 ```
 
 [Say Hello to Gittask](say-hello-to-gittask.md)

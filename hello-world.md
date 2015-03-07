@@ -6,9 +6,6 @@ slug: hello-world
 excerpt: We’re excited here at Akido to launch our blog. We’re releasing features every week so check back to stay up to date on the Akido platform.
 author: Team Akido
 ```
-
-# Hello World! 
-
 We’re excited here at Akido to launch our blog. We’re releasing features every week so check back to stay up to date on the Akido platform. Also, we’ll share thoughts on digital health innovation and product development. You can also follow us on Twitter at @AkidoLabs.
 
 ## What is Akido?

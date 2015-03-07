@@ -1,5 +1,5 @@
 ```
-title: Bluu: App Store Submission
+title: Bluu: Akido
 tags: Bluu, app, app store submission, privacy policy, D-U-N-S Number, iubenda, screenshots
 date: September 15, 2014
 slug: bluu-app-store-submission

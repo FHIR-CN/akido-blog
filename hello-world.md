@@ -33,6 +33,7 @@ for result in data:
     print "Patient " + data["subject"]["display"] + " had value " + str(data["valueQuantity"]["value"])
 ```
 
+
 ### Message Practitioner Upon Abnormal Lab Result
 
 This is a simple app that would poll the electronic medical records system every hour and send an SMS to the practitioner if there was anything amiss. Besides comments and instantiating variables, you're looking at 10 lines of code. 

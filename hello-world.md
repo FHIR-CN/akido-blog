@@ -18,7 +18,7 @@ Digital health developers should be focused on solving problems instead of navig
 
 ## Some builders' inspiration
 
-```python
+```py
 #!/usr/bin/python
 import urllib, json,time
 url="https://testhospital.api.akidolabs.com?_format=json&issued=>" + str(time.time() - 24*60*60)

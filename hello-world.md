@@ -38,7 +38,7 @@ for result in data:
 
 This is a simple app that would poll the electronic medical records system every hour and send an SMS to the practitioner if there was anything amiss. Besides comments and instantiating variables, you're looking at 10 lines of code. 
 
-(Note that to send messages with patient information, you would want to use [TigerText](https://developer.tigertext.com/) instead of [Twilio](https://www.twilio.com/api) to maintain HIPAA compliance...[TigerText](https://developer.tigertext.com/) mashup soon to come)
+(Note that to send messages with patient information, you would want to use <a href="https://developer.tigertext.com/" target="_blank">TigerText</a> instead of <a href="https://www.twilio.com/api" target="_blank">Twilio</a> to maintain HIPAA compliance...<a href="https://developer.tigertext.com/" target="_blank">TigerText</a> mashup soon to come)
 
 ```py
 import urllib 

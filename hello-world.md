@@ -17,7 +17,8 @@ Akido is the easiest and safest way to integrate new software into healthcare pr
 Digital health developers should be focused on solving problems instead of navigating political and technological red tape. This is no mean feat, as there needs to be a very high bar for safety when accessing health data. Security and patient privacy need to be baked in to every choice a hospital makes. However, this shouldn’t prevent us from leveraging technological innovation to improve the quality and efficiency of healthcare. It just means that we have to do it with utmost care. 
 
 ## Some builders' inspiration
-<code class="language-python">
+
+```js
 #!/usr/bin/python
 import urllib, json,time
 url="https://testhospital.api.akidolabs.com?_format=json&issued=>" + str(time.time() - 24*60*60)
@@ -26,4 +27,4 @@ data = json.loads(response)
 for result in data:
   if data["interpretation"]["coding"][0]["code"] != "N":
     print "Patient " + data["subject"]["display"] + " had value " + str(data["valueQuantity"]["value"])
-</code>
+```
